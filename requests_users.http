@@ -1,0 +1,22 @@
+### GASTOS
+GET http://localhost:3000/users
+
+
+### CREATE
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "name": "Test User",
+    "email": "test@user.com",
+    "password": "test123"
+}
+
+### LOGIN
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "test@user.com",
+    "password": "test123"
+}

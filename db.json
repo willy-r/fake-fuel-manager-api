@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "email": "test@user.com",
+      "password": "$2a$10$xwpvMVbkrNRSlhWHGppmMehf7dRL7a03W1M/g7PuwgDmGiKI.PQbW",
+      "name": "Test User",
+      "id": 1
+    }
+  ],
+  "gastos": [
+    {
+      "id": 1,
+      "tipo": 0,
+      "data": "01/01/2022",
+      "preco": 6.77,
+      "valor": 100,
+      "odometro": 33000
+    },
+    {
+      "id": 2,
+      "tipo": 1,
+      "data": "10/01/2022",
+      "preco": 5.65,
+      "valor": 100,
+      "odometro": 32000
+    }
+  ]
+}
